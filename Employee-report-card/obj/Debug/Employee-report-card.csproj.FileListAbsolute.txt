@@ -1,0 +1,10 @@
+C:\Users\stud\374\Черных Артём\Employee-report-card\bin\Debug\Employee-report-card.exe.config
+C:\Users\stud\374\Черных Артём\Employee-report-card\bin\Debug\Employee-report-card.exe
+C:\Users\stud\374\Черных Артём\Employee-report-card\bin\Debug\Employee-report-card.pdb
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee-report-card.csprojAssemblyReference.cache
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee_report_card.Form_Employee_ReportСard.resources
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee_report_card.Properties.Resources.resources
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee-report-card.csproj.GenerateResource.cache
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee-report-card.csproj.CoreCompileInputs.cache
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee-report-card.exe
+C:\Users\stud\374\Черных Артём\Employee-report-card\obj\Debug\Employee-report-card.pdb

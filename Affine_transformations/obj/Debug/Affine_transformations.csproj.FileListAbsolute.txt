@@ -1,0 +1,15 @@
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\bin\Debug\Polygon.exe.config
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\bin\Debug\Polygon.exe
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\bin\Debug\Polygon.pdb
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.Form_Main_AffineTransf.resources
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.Properties.Resources.resources
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Affine_transformations.csproj.GenerateResource.cache
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Affine_transformations.csproj.CoreCompileInputs.cache
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.exe
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.pdb
+C:\Users\stud\374\Черных Артём\Работы\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Affine_transformations.csprojAssemblyReference.cache
+D:\Locale_disk_E\Git_Save\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Affine_transformations.csprojAssemblyReference.cache
+D:\Locale_disk_E\Git_Save\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.Form_Main_AffineTransf.resources
+D:\Locale_disk_E\Git_Save\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Affine_transformations.csproj.GenerateResource.cache
+D:\Locale_disk_E\Git_Save\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.exe
+D:\Locale_disk_E\Git_Save\SPbKIT\App_Prog_MDK0102\Affine_transformations\obj\Debug\Polygon.pdb
