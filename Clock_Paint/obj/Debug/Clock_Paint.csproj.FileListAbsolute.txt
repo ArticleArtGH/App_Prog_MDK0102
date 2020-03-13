@@ -1,0 +1,10 @@
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.csprojAssemblyReference.cache
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.Properties.Resources.resources
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.csproj.GenerateResource.cache
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.csproj.CoreCompileInputs.cache
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\bin\Debug\Clock_Paint.exe.config
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\bin\Debug\Clock_Paint.exe
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\bin\Debug\Clock_Paint.pdb
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.Form_Clock_Paint.resources
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.exe
+C:\Users\stud\374\Черных Артём\Работы\App_Prog_MDK0102\Clock_Paint\obj\Debug\Clock_Paint.pdb
