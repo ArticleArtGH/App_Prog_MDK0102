@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_ClockPaint = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.timer_ClockPaint = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ClockPaint)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBox_ClockPaint
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
+            this.pictureBox_ClockPaint.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox_ClockPaint.Name = "pictureBox_ClockPaint";
+            this.pictureBox_ClockPaint.Size = new System.Drawing.Size(404, 404);
+            this.pictureBox_ClockPaint.TabIndex = 0;
+            this.pictureBox_ClockPaint.TabStop = false;
+            this.pictureBox_ClockPaint.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox_ClockPaint_Paint);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.BackColor = System.Drawing.Color.PaleGreen;
             this.button1.Location = new System.Drawing.Point(3, 438);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -58,7 +58,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Location = new System.Drawing.Point(328, 438);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -79,9 +79,9 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Будильник";
             // 
-            // timer1
+            // timer_ClockPaint
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer_ClockPaint.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form_Clock_Paint
             // 
@@ -91,11 +91,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox_ClockPaint);
             this.Name = "Form_Clock_Paint";
             this.Text = "Clock_Paint";
             this.Load += new System.EventHandler(this.Form_Clock_Paint_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ClockPaint)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,11 +103,11 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox_ClockPaint;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer_ClockPaint;
     }
 }
 
