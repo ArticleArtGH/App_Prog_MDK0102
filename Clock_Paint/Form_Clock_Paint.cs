@@ -13,7 +13,7 @@ namespace Clock_Paint
     public partial class Form_Clock_Paint : Form
     {
         int x = 0, y = 0, xc = 0, yc = 0, depth = 0;
-        double angel = 0, angelChange = 1, r=0;
+        double angel = 0, angelChange = 1, r=0, d = 0;
         Pen pen;
         Color colorPen;
         Graphics gr;
@@ -33,7 +33,7 @@ namespace Clock_Paint
 
             //buf = new Bitmap(this.pictureBox_ClockPaint.Width, this.pictureBox_ClockPaint.Height);
             //gr = Graphics.FromImage(buf);
-            string image = @"AnimeBackground003.jpg";
+            string image = @"AnimeBackground003.png";
             //this.pictureBox_ClockPaint.Load(image);
             ////this.pictureBox_ClockPaint.SizeMode = PictureBoxSizeMode.StretchImage;//Подгоняет размер
             ////this.pictureBox_ClockPaint.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -48,11 +48,13 @@ namespace Clock_Paint
             Rectangle rect = new Rectangle(250, 0, img.Width - 500, img.Height);
             //Rectangle rect = new Rectangle(250, 100, img.Width-500, img.Height-100);
             Bitmap imgChange = img.Clone(rect, System.Drawing.Imaging.PixelFormat.DontCare);
-            Color imgBackColor = Color.FromArgb(0, 14, 35, 86);//img.GetPixel(1, 10);
+            Color imgBackColor = Color.FromArgb(0, 100, 162, 253);//img.GetPixel(1, 10);
             imgChange.MakeTransparent(imgBackColor);//Для прозрачности определённого цвета пикселя, однако незаметно
             gr.DrawImage(imgChange, 150, 10);
+            pictureBox_ClockPaint.BackColor = Color.Transparent;
             this.pictureBox_ClockPaint.Image = imgChange;
             this.pictureBox_ClockPaint.SizeMode = PictureBoxSizeMode.StretchImage;
+            
 
             //Bitmap img = new Bitmap(image);
             //Bitmap imgSize = new Bitmap(img, new Size(600, 500));
@@ -78,11 +80,13 @@ namespace Clock_Paint
             //this.pictureBox_ClockPaint.Image = ellipse;
             //Хотел сделать окружность для часов
             //gr.TranslateTransform(0, 0);
-            r = 660;
+
+            d = 660;
             colorPen = Color.White; depth = 1;
             pen = new Pen(colorPen, depth);
             gr = Graphics.FromImage(imgChange);
-            gr.DrawEllipse(pen, (float)20, (float)7, (float)r, (float)r);
+            gr.DrawEllipse(pen, (float)10, (float)7, (float)d+20, (float)d);
+            //gr.DrawEllipse(pen, (float)10, (float)10, (float)r, (float)r);
             //this.pictureBox_ClockPaint.Image = ellipse;
 
             //Как сделать так чтобы то что я нарисовал не стирал Paint
@@ -115,11 +119,12 @@ namespace Clock_Paint
             //gr = CreateGraphics();
             gr = e.Graphics;
             //gr.DrawEllipse(pen, (float)xc, (float)yc, (float)r, (float)r);
+            //r = 199;
             r = 199;
             colorPen = Color.Red; depth = 3;
             pen = new Pen(colorPen, depth);
-            x = xc + (int)(r*Math.Sin(angel));
-            y = yc - (int)(r * Math.Cos(angel));
+            x = xc+8 + (int)(r*Math.Sin(angel));
+            y = yc+1 - (int)(r * Math.Cos(angel));
             gr.DrawLine(pen, xc, yc, x, y);
             //gr.DrawEllipse(pen, 10, 10, 100, 100);
             ////Аффинные преобразования
